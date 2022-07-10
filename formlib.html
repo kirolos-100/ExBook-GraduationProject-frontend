@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Page</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/cformlib.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- 
+    <link rel="stylesheet" href="css/bootstrap.min (1).css">
+    <link rel="stylesheet" href="css/_bootswatch.scss">
+    <link rel="stylesheet" href="css/_variables.scss"> -->
+    
+
+    <!--fontawesome link -->
+    <script src="https://kit.fontawesome.com/70ea18d072.js" crossorigin="anonymous"></script>
+
+    
+
+</head>
+<body>
+    
+    <!-- header section starts  -->
+
+    <header class="header">
+
+        <div class="header-1">
+
+            <a href="#" class="logo"> <i class="fas fa-book"></i> Ktabi </a>
+            <!-- <a href="#register" class="F1">Register</a>
+            <a href="#login" class="F1">Login</a> -->
+
+            <form action="" class="search-form">
+                <input type="search" placeholder="search here..." id="search-box">
+                <button type="submit" class="search-button" >
+                    <span class="button-icon"><i class="fas fa-search"></i></span>
+                </button>
+                <!-- <label for="search-box" class="fas fa-search"></label> -->
+            </form>
+
+            <div class="icons">
+                <div id="search-btn" class="fas fa-search"></div>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="sign.html" class="fas fa-user"></a>
+                <!-- <div id="login-btn" class="fas fa-user"></div> -->
+                <a href="#" id="logout-btn" class="fa-solid fa-right-from-bracket"></a>
+            </div>
+
+        </div>
+
+        <div class="header-2">
+            <nav class="navbar">
+
+                    <!-- <a href="#home">home</a>
+                    <a href="#featured">featured</a>
+                    <a href="#arrivals">arrivals</a>
+                    <a href="#sections">sections</a>
+                    <a href="#authors">authors</a>
+                    <a href="#books">books</a>
+                        -->
+                <ul>
+                    <li><a href="home.html">home</a></li>
+                    <li><a href="#featured">featured</a></li>
+                    <li><a href="#arrivals">arrivals</a></li>
+                    <li><a href="book.html">books</a>
+                        <ul>
+                            <li> <a href="#1">Download books</a></li>
+                            <li> <a href="#2">upload books</a></li>
+                            <li> <a href="#3">writen books</a></li>
+                            <li> <a href="#4">paper books</a></li>
+                            <li> <a href="#5"> books</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="section.html">sections</a></li>
+                    <li><a href="author.html">authors</a></li>
+                    
+                </ul>
+            </nav>
+                
+        </div>
+
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- bottom navbar  -->
+
+
+    <nav class="bottom-navbar">
+        
+        <a href="home.html" class="fas fa-home"></a>
+        <a href="#featured" class="fas fa-list"></a>
+        <a href="#arrivals" class="fas fa-tags"></a>
+        <a href="section.html"><i class="fa-solid fa-section"></i></a>
+        <a href="author.html"><i class="fa-solid fa-feather-pointed"></i></a>
+        <a href="book.html"><i class="fa-solid fa-book"></i></a>    
+        
+    </nav>
+
+<!-- 
+
+    <div class="container">
+
+        <div class="wrapper">
+            <input type="radio" name="slider" id="tab-1">
+            <input type="radio" name="slider" id="tab-2" checked>
+            <input type="radio" name="slider" id="tab-3">
+            <header>
+              <label for="tab-1" class="tab-1">Basic</label>
+              <label for="tab-2" class="tab-2">Standard</label>
+              <label for="tab-3" class="tab-3">Team</label>
+              <div class="slider"></div>
+            </header>
+            <div class="card-area">
+              <div class="cards">
+                <div class="row row-1">
+                  <div class="price-details">
+                    <span class="price">19</span>
+                    <p>For beginner use</p>
+                  </div>
+                  <ul class="features">
+                    <li><i class="fas fa-check"></i><span>100 GB Premium Bandwidth</span></li>
+                    <li><i class="fas fa-check"></i><span>FREE 50+ Installation Scripts WordPress Supported</span></li>
+                    <li><i class="fas fa-check"></i><span>One FREE Domain Registration .com and .np extensions only</span></li>
+                    <li><i class="fas fa-check"></i><span>Unlimited Email Accounts & Databases</span></li>
+                  </ul>
+                </div>
+                <div class="row">
+                  <div class="price-details">
+                    <span class="price">99</span>
+                    <p>For professional use</p>
+                  </div>
+                  <ul class="features">
+                    <li><i class="fas fa-check"></i><span>Unlimited GB Premium Bandwidth</span></li>
+                    <li><i class="fas fa-check"></i><span>FREE 200+ Installation Scripts WordPress Supported</span></li>
+                    <li><i class="fas fa-check"></i><span>Five FREE Domain Registration .com and .np extensions only</span></li>
+                    <li><i class="fas fa-check"></i><span>Unlimited Email Accounts & Databases</span></li>
+                  </ul>
+                </div>
+                <div class="row">
+                  <div class="price-details">
+                    <span class="price">49</span>
+                    <p>For team collaboration</p>
+                  </div>
+                  <ul class="features">
+                    <li><i class="fas fa-check"></i><span>200 GB Premium Bandwidth</span></li>
+                    <li><i class="fas fa-check"></i><span>FREE 100+ Installation Scripts WordPress Supported</span></li>
+                    <li><i class="fas fa-check"></i><span>Two FREE Domain Registration .com and .np extensions only</span></li>
+                    <li><i class="fas fa-check"></i><span>Unlimited Email Accounts & Databases</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <button>Choose plan</button>
+          </div>
+    
+    
+
+
+
+    </div>
+
+     -->
+
+
+
+
+      
+  <div class="wrapper">
+    <div class="title">
+      REGISTRATION FORM 
+    </div>
+    <div class="form">
+      <div class="inputfield">
+          <label>First Name</label>
+          <input type="text" class="input">
+      </div>  
+        <div class="inputfield">
+          <label>Last Name</label>
+          <input type="text" class="input">
+      </div>
+      
+      <div class="inputfield">
+        <label>Email Address</label>
+        <input type="text" class="input">
+      </div>
+
+      <div class="inputfield">
+          <label>Password</label>
+          <input type="password" class="input">
+      </div>  
+      <div class="inputfield">
+          <label>Confirm Password</label>
+          <input type="password" class="input">
+      </div> 
+        <div class="inputfield">
+          <label>Gender</label>
+          <div class="custom_select">
+            <select>
+              <option value="">Select</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+            </select>
+          </div>
+      </div> 
+      <div class="inputfield">
+          <label>Phone Number</label>
+          <input type="text" class="input">
+      </div> 
+      <div class="inputfield">
+        <label>Library Name</label>
+        <input type="text" class="input">
+      </div>
+      <div class="inputfield">
+        <label>Library Address</label>
+        <input type="text" class="input">
+      </div>
+      
+      
+      <div class="inputfield">
+        <input type="submit" value="Register" class="btn">
+      </div>
+    </div>
+  </div>	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>our locations</h3>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Cairo </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Giza </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Alex </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Tanta </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Sharm El Sheikh</a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Hurghada </a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> featured </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> arrivals </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> sections </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> authors </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> books </a>
+        </div>
+
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> account info </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> ordered items </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> privacy policy </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> payment method </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> our serivces </a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+            <a href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+            <a href="#"> <i class="fas fa-envelope"></i> ktabi@gmail.com </a>
+            <img src="image/worldmap.png" class="map" alt="">
+        </div>
+        
+    </div>
+
+    <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+    </div>
+
+    <div class="credit"> created by <span>KKMPAY Team</span> | all rights reserved! </div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+<!-- custom js file link  -->
+<script src="js/shome.js"></script>
+
+
+    <!-- <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="js/sauthor_pagination.js"></script>
+
+
+    <script type="text/javascript">
+
+        $(document).ready(function(){
+            $('.next').click(function(){
+                $('.link').find('.pageNumber.active').next().addClass('active');
+            })
+        })
+
+    </script>  -->
+    
+</body>
+</html>
